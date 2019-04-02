@@ -6,17 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://wild-pine-6024.animaapp.io/</loc>
+  <loc>http://onmy.us/</loc>
   <lastmod>2019-04-02</lastmod>
 </url>
 
 <url>
-  <loc>http://wild-pine-6024.animaapp.io/about</loc>
+  <loc>http://onmy.us/home</loc>
   <lastmod>2019-04-02</lastmod>
 </url>
 
 <url>
-  <loc>http://wild-pine-6024.animaapp.io/home</loc>
+  <loc>http://onmy.us/about</loc>
   <lastmod>2019-04-02</lastmod>
 </url>
 

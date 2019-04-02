@@ -4,16 +4,16 @@
                           src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
                         }
                         @font-face {
+                          font-family: "SFProDisplay-Italic";
+                          src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format("opentype");
+                        }
+                        @font-face {
                           font-family: "SFProDisplay-Medium";
                           src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
                         }
                         @font-face {
                           font-family: "SFProDisplay-Regular";
                           src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
-                        }
-                        @font-face {
-                          font-family: "SFProDisplay-Italic";
-                          src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format("opentype");
                         }
                         
 .home {
@@ -42,6 +42,83 @@ div {
 }
 div {
   -webkit-text-size-adjust: none;
+}
+.anima-animate-enter {
+  opacity             : 0;
+  transform           : rotate(25deg);
+  display             : block;
+  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-moz-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-o-keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@keyframes anima-animate-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
 }
 .home .group {
   background-color    : rgba(255,255,255,0.0);
@@ -112,11 +189,15 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
   font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
   font-size           : 25.0px;
   color               : rgba(11, 13, 32, 1.0);
   text-align          : left;
   line-height         : 30.0px;
+}
+.home .learnaboutus:hover {
+  transform           : scale(0.9);
 }
 .home .thisisaspecialap {
   background-color    : rgba(255,255,255,0.0);

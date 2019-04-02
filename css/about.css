@@ -4,16 +4,16 @@
                           src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
                         }
                         @font-face {
+                          font-family: "SFProDisplay-Italic";
+                          src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format("opentype");
+                        }
+                        @font-face {
                           font-family: "SFProDisplay-Medium";
                           src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
                         }
                         @font-face {
                           font-family: "SFProDisplay-Regular";
                           src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
-                        }
-                        @font-face {
-                          font-family: "SFProDisplay-Italic";
-                          src: url('../fonts/SF-Pro-Display-RegularItalic.otf') format("opentype");
                         }
                         
 .about {
@@ -56,7 +56,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 25.0px;
-  color               : rgba(99, 99, 99, 1.0);
+  color               : rgba(130, 130, 130, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -208,6 +208,57 @@ div {
   text-align          : left;
   line-height         : 30.0px;
 }
+.about .contact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 846px;
+  height              : auto;
+  width               : 744px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.about .dmdavidiastateedu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 886px;
+  height              : auto;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.about .ajshahiastateedu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 886px;
+  height              : auto;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
 .about .confidentialandpro {
   background-color    : rgba(255,255,255,0.0);
   top                 : 936px;
@@ -221,7 +272,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(100, 100, 100, 1.0);
+  color               : rgba(130, 130, 130, 1.0);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -236,6 +287,10 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.about .group:hover {
+  transform           : translate(0, -5px);
 }
 .about .group .group10 {
   background-color    : rgba(255,255,255,0.0);
@@ -260,6 +315,10 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.about .logocopy:hover {
+  transform           : scale(1.1);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
