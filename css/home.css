@@ -145,7 +145,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 40.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  color               : rgb(255, 255, 255);
   text-align          : center;
   line-height         : 48.0px;
 }
@@ -162,7 +162,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Italic", Helvetica, Arial, serif;
   font-size           : 19.0px;
-  color               : rgba(1, 1, 1, 1.0);
+  color               : rgb(255, 255, 255);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -192,7 +192,7 @@ div {
   transition          : all 0.2s ease-in-out;
   font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
   font-size           : 25.0px;
-  color               : rgba(11, 13, 32, 1.0);
+  color               : white;
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -212,7 +212,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(8, 10, 29, 1.0);
+  color               : white;
   text-align          : center;
   line-height         : 25.0px;
 }
