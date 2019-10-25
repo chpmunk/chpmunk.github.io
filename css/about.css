@@ -97,7 +97,7 @@ div {
 
 .about .colbyhawkins {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 739px;
+  top                 : 525px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -112,6 +112,9 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
+
+
+
 .about .chiefexecutiveoffi {
   background-color    : rgba(255,255,255,0.0);
   top                 : 271px;
@@ -149,7 +152,7 @@ div {
 
 .about .chiefmarketingoff {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 739px;
+  top                 : 525px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -229,7 +232,7 @@ div {
 }
 .about .mrshahisthecof {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 549px;
+  top                 : 739px;
   height              : auto;
   width               : 744px;
   position            : absolute;
