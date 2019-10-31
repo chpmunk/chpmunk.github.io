@@ -54,7 +54,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+  /* font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif; */
   font-size           : 25.0px;
   color               : rgba(130, 130, 130, 1.0);
   text-align          : left;
