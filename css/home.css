@@ -143,7 +143,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+  /* font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif; */
   font-size           : 40.0px;
   color               : #49454e;
   text-align          : center;
@@ -156,7 +156,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 20px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -165,6 +165,7 @@ div {
   color               : #49454e;
   text-align          : left;
   line-height         : 30.0px;
+  white-space: nowrap;
 }
 .home .dark {
   background-color    : white;
@@ -196,6 +197,9 @@ div {
   color               : #e8c40b;
   text-align          : left;
   line-height         : 30.0px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
 }
 .home .learnaboutus:hover {
   transform           : scale(0.9);

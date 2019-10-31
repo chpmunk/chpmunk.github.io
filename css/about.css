@@ -26,7 +26,7 @@
   margin              : 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    :rgb(38, 8, 97);
+  background-color    :white;
 }
 a {
   text-decoration     : none;
@@ -90,7 +90,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 24.0px;
 }
@@ -108,7 +108,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 24.0px;
 }
@@ -192,7 +192,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               :rgb(27, 8, 33);
   text-align          : left;
   line-height         : 25.0px;
 }
@@ -209,7 +209,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 25.0px;
 }
@@ -226,7 +226,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 25.0px;
 }
@@ -243,7 +243,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -261,7 +261,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -278,7 +278,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -295,7 +295,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -312,7 +312,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -330,7 +330,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
   font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  color               : rgb(27, 8, 33);
   text-align          : left;
   line-height         : 30.0px;
 }
