@@ -26,7 +26,7 @@
   margin              : 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(8, 10, 29, 1.0);
+  background-color    :rgb(38, 8, 97);
 }
 a {
   text-decoration     : none;
@@ -382,8 +382,8 @@ div {
 .about .logocopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 50px;
-  height              : 65px;
-  width               : 65px;
+  height              : 55px;
+  width               : 42px;
   position            : absolute;
   margin              : 0;
   left                : 75px;
