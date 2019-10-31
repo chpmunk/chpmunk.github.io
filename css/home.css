@@ -169,11 +169,12 @@ div {
 .home .dark {
   background-color    : white;
   top                 : 154px;
-  height              : 658px;
-  width               : 339px;
+  /* height              : 658px;
+  width               : 339px; */
   position            : absolute;
-  margin              : 0;
-  left                : 370px;
+
+  margin-left: 400px;
+  margin-right: 400px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -185,7 +186,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 640px;
+  left                : 250px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -205,8 +206,9 @@ div {
   height              : auto;
   width               : 683px;
   position            : absolute;
-  margin              : 0;
-  left                : 428px;
+  
+  margin-left: 400px;
+  margin-right: 400px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
