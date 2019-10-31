@@ -26,7 +26,7 @@
   margin              : 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(8, 10, 29, 1.0);
+  background-color    :white;
 }
 a {
   text-decoration     : none;
@@ -121,7 +121,7 @@ div {
     }
 }
 .home .group {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    :white;
   top                 : 50px;
   height              : 83px;
   width               : 240px;
@@ -133,7 +133,7 @@ div {
   transform           : rotate(0deg);
 }
 .home .group .onmy {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    :white;
   top                 : 0px;
   height              : auto;
   width               : 215px;
@@ -145,7 +145,7 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
   font-size           : 40.0px;
-  color               : rgb(255, 255, 255);
+  color               : #49454e;
   text-align          : center;
   line-height         : 48.0px;
 }
@@ -162,18 +162,18 @@ div {
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Italic", Helvetica, Arial, serif;
   font-size           : 19.0px;
-  color               : rgb(255, 255, 255);
+  color               : #49454e;
   text-align          : left;
   line-height         : 30.0px;
 }
 .home .dark {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : white;
   top                 : 154px;
   height              : 658px;
   width               : 339px;
   position            : absolute;
   margin              : 0;
-  left                : 550px;
+  left                : 370px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -192,7 +192,7 @@ div {
   transition          : all 0.2s ease-in-out;
   font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
   font-size           : 25.0px;
-  color               : white;
+  color               : #e8c40b;
   text-align          : left;
   line-height         : 30.0px;
 }
@@ -200,10 +200,10 @@ div {
   transform           : scale(0.9);
 }
 .home .thisisaspecialap {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : white;
   top                 : 822px;
   height              : auto;
-  width               : 584px;
+  width               : 683px;
   position            : absolute;
   margin              : 0;
   left                : 428px;
@@ -211,10 +211,10 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "SFProDisplay-Regular", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : white;
+  font-size           : 20px;
+  color               : #49454e;
   text-align          : center;
-  line-height         : 25.0px;
+  line-height         : 27.0px;
 }
 .home .logo {
   background-color    : rgba(255,255,255,0.0);
